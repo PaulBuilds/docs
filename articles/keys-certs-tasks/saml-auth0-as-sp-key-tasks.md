@@ -48,7 +48,7 @@ In order for Auth0 to validate the signed authentication responses coming from t
 Optionally, assertions can be encrypted. In order for the IDP to make the relevant configuration your public key will have to be provided. 
 
 1. Open the Auth0 dashboard and navigate to [Connections > Enterprise](${uiURL}/#/connections/enterprise). Click on the __SAMLP Identity Provider__.
-2. Click on the __Settings__ (gear) icon for your SAMLP connection.
+2. Click on the __Setup__ (pencil) icon for your SAMLP connection.
 3. Under __Encrypted Assertions__, use the links for CER, PEM or PKCS#7 to download a public key/certificate in the format needed for your IDP.
 
 ![](media/articles/public-key-cryptography/sp-encrypted-assertions.png)
